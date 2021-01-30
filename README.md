@@ -2,7 +2,7 @@
 
 Description
 -----------
-Python3 app to expose sensor readings to simple api using flask.
+Python3 app to expose sensor readings to simple api using flask <br />
 
 Hardware
 -------------
