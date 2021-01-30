@@ -39,21 +39,21 @@ def root():
 @app.route('/temp')
 def temp():
     data = bme280.sample(bus, address, calibration_params)
-    temp = str(round(data.temperature, 3))
+    temp = str(round(data.temperature, 2))
     return temp
 
 # /pressure site for just pressure
 @app.route('/pressure')
 def pressure():
     data = bme280.sample(bus, address, calibration_params)
-    pressure = str(round(data.pressure, 3))
+    pressure = str(round(data.pressure, 2))
     return pressure
 
 # /humidity site for just humidity
 @app.route('/humidity')
 def humidity():
     data = bme280.sample(bus, address, calibration_params)
-    humidity = str(round(data.humidity, 3))
+    humidity = str(round(data.humidity, 2))
     return humidity
 
 if __name__ == '__main__':
