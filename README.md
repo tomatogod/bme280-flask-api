@@ -6,8 +6,8 @@ Python3 app to expose sensor readings to simple api using flask <br />
 
 Hardware
 -------------
-raspberrypi (>3) (enable l2c)\n
-bme280 sensor (https://www.amazon.co.uk/KeeYees-Temperature-Humidity-Atmospheric-Barometric-3-x-BME280-Digital-Sensor-Module/)\n
+raspberrypi (>3) (enable l2c)<br />
+bme280 sensor (https://www.amazon.co.uk/KeeYees-Temperature-Humidity-Atmospheric-Barometric-3-x-BME280-Digital-Sensor-Module/)<br />
 
 Example usage
 -------------
