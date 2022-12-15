@@ -22,6 +22,6 @@ web browse to http://<hostname/ip>:5000 - summary readings from bmi280 sensor<br
 
 Python modules
 -------------
-pip3 install flask<br /> (https://flask.palletsprojects.com/)
-pip3 install RPi.bmi280<br /> (https://github.com/rm-hull/bme280)
-pip3 install smbus2<br /> (https://pypi.org/project/smbus2/)
+pip3 install flask (https://flask.palletsprojects.com/)<br /> 
+pip3 install RPi.bmi280 (https://github.com/rm-hull/bme280)<br /> 
+pip3 install smbus2 (https://pypi.org/project/smbus2/)<br /> 
